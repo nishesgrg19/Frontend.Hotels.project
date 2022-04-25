@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container1 ul {
+  list-style: none;
+}
+
+.container1 ul li {
+  text-decoration: none;
+  display: inline;
+}
+
+.container1 ul li a {
+  padding: 6px;
+  text-decoration: none;
+  color: black;
+}
+
+.section1 .carousel {
+  width: 536px;
+}
+
+.section1 .carousel {
+  -webkit-box-shadow: 0 3px 17px silver;
+          box-shadow: 0 3px 17px silver;
+}
+
+.section1 .card {
+  -webkit-box-shadow: 0 3px 10px silver;
+          box-shadow: 0 3px 10px silver;
+}
+
+.section1 ul {
+  list-style: square;
+}
+
+.section1 .left_head {
+  position: relative;
+}
+
+.section1 .left_head h4::before {
+  content: "";
+  border: 1px solid black;
+  width: 551px;
+  position: absolute;
+  top: 80px;
+}
+
+.review_image {
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 73px;
+  height: 70px;
+  background-image: url("/images/ok1.jpg");
+  background-size: 60px;
+  background-position-y: 2px;
+}
+
+.review {
+  position: relative;
+}
+
+.review h5::before {
+  content: "";
+  width: 551px;
+  border: 1px solid silver;
+  position: absolute;
+  top: 170px;
+}
+
+.review-btn {
+  margin-top: -50px;
+}
+
+footer .list ul {
+  list-style: none;
+}
+
+footer .list ul li a {
+  color: #999;
+  text-decoration: none;
+}
+
+footer .list1 p {
+  color: #999;
+}
+
+footer .list1 button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.container2 {
+  max-width: 960px;
+  margin: auto;
+  height: 620px;
+}
+
+.container2 .fot {
+  height: 520px;
+  border-bottom: 1px solid black;
+}
+
+.container2 .select {
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+}
+
+.container2 p {
+  color: #999;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav1 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  -webkit-transition: 2s;
+  transition: 2s;
+  padding: 15px;
+  -webkit-box-shadow: 0 3px 17px silver;
+          box-shadow: 0 3px 17px silver;
+}
+
+.topup {
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=style.css.map */
